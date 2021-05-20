@@ -1,12 +1,6 @@
 function whenipresssubmit(){    
     var attendance = document.getElementById('attendance');
     attendance.style.display = 'none';
-
-    var viewAtten = document.getElementById('viewAtten');
-    viewAtten.style.display = 'inline';
-
-    var thankyou = document.getElementById('thankyou');
-    thankyou.style.display= 'inline';
     
     //linking the variables to the HTML inputs
     var date = document.getElementById('date');
