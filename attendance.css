@@ -1,0 +1,184 @@
+.webpage{
+    background-color: #B5C2C7;
+}
+
+.dateMessage{
+    height: 40px;
+    font-family: sans-serif;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-style: oblique;
+}
+
+.rollnoMessage{
+    height: 40px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-style: oblique;
+    border-radius: 10px;
+}
+
+.nameMessage{
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-style: oblique;
+    border-radius: 10px;
+}
+
+.date{
+    background-color: grey;
+    color: white;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.rollno{
+    background-color: grey;
+    color: white;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.name{
+    background-color: grey;
+    color: white;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.login{
+    display: none;
+}
+
+.attendance{
+    text-align: center;
+}
+
+.submit{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.teachers{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.back{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+    display: none;
+}
+
+.username{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.pwd{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.logged{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.viewAtten{
+    background-color: grey;
+    color: black;
+    border-radius: 12px;    
+    border-style: none;
+    height: 60px;
+    width: 150px;
+    font-size: large;
+    display: none;
+}
+
+.nameDiv{
+    background-color: white;
+    text-align: center;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.dateDiv{
+    background-color: black;
+    text-align: center;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.rollDiv{
+    background-color: grey;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.removeLocalStorage{
+    height: 50px;
+    width: 200px;
+    background-color: grey;
+    color: black;
+    border-radius: 10px;
+    border-style: none;
+    font-size: large;
+}
+
+.finalMessage{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
