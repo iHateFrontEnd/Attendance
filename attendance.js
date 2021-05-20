@@ -1,8 +1,18 @@
 function whenipresssubmit(){    
     var attendance = document.getElementById('attendance');
     attendance.style.display = 'none';
+
+    var thankyou = document.getElementById('thankyou');
+    thankyou.style.display= 'inline';
+
+    //this is the button that will remove all the local storage off of the web browser
+    let removeLocalStorage = document.createElement('button');
+    removeLocalStorage.setAttribute('id', 'removeLocal');
+    removeLocalStorage.setAttribute('class', 'removeLocalStorage');
+    removeLocalStorage.setAttribute('onclick', 'whenipressRemove()');
+    document.body.appendChild(removeLocalStorage);
+    removeLocalStorage.innerHTML = 'Click me';
     
-    //linking the variables to the HTML inputs
     var date = document.getElementById('date');
     
     var rollNo = document.getElementById('rollno');
@@ -32,7 +42,6 @@ function whenipressViewAtten(){
     var viewAtten = document.getElementById('viewAtten');
     viewAtten.style.display = 'none';
 
-    //creating a message for the user
     let finalMessage = document.createElement('h2');
     finalMessage.setAttribute('class', 'finalMessage')
     finalMessage.setAttribute('id', 'finalMessage');
@@ -77,14 +86,14 @@ function whenipressViewAtten(){
 
 //this function remove the localStorage off of the users machine
 function whenipressRemove(){
-    //removing the date
+    //removin date
     localStorage.removeItem('date');
 
-    //removing the roll number
+    //removing roll number 
     localStorage.removeItem('Roll number');
 
-    //removing the name
-    localStorage.removeItem('name');
+    //removing name
+    localStorage.removeItem('Name');
 
 }
 
